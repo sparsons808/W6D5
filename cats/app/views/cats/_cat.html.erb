@@ -1,0 +1,16 @@
+<h2> Name: <%= cat.name %> </h2>
+
+<ul>
+    <li> Birth Date: <%= cat.birth_date %> </li>
+    <li> Color: <%= cat.color %> </li>
+    <li> Sex: <%= cat.sex %> </li>
+    <li> Description: <%= cat.description %> </li>
+
+    <% if action == "show" %>
+        <a href="<%=cats_url%>">Back to index</a>
+    <% else %>
+        <a href="<%=cat_url(cat)%>”>Go to Show All Cats</a>
+    <% end %>
+</ul>
+
+

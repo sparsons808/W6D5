@@ -8,10 +8,15 @@
         <tr>
             <% @cats.each do |cat| %>
             <td>
-                <%= cat.name%>
+                <ul>
+                    <%= render 'cat', cat: cat, action: :index %>
+                </ul>
             </td>
             <% end %>
         </tr>
     </tbody>
 </table>
+
+
+
 

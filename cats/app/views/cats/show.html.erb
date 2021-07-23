@@ -1,0 +1,10 @@
+
+<%= render "cats/cat", cat: @cat, action: "show" %>
+
+<form action="<%=cat_url(@cat)%>" method="POST">
+
+    <input type="hidden" name="_method" value="DELETE">
+
+    <button>Delete cat :(</button>
+
+</form>
