@@ -1,4 +1,4 @@
-<h2> Name: <%= cat.name %> </h2>
+<h4> Name: <%= cat.name %> </h4>
 
 <ul>
     <li> Birth Date: <%= cat.birth_date %> </li>
@@ -7,9 +7,7 @@
     <li> Description: <%= cat.description %> </li>
 
     <% if action == "show" %>
-        <a href="<%=cats_url%>">Back to index</a>
-    <% else %>
-        <a href="<%=cat_url(cat)%>”>Go to Show All Cats</a>
+        <a href="<%=cats_url%>">Go to Show All Cats</a>
     <% end %>
 </ul>
 
