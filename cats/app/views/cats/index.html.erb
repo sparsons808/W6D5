@@ -1,0 +1,17 @@
+<table>
+    <thead>
+        <tr>
+            <th colspan="3">99 Cats</th>
+        </tr
+    </thead>
+    <tbody>
+        <tr>
+            <% @cats.each do |cat| %>
+            <td>
+                <%= cat.name%>
+            </td>
+            <% end %>
+        </tr>
+    </tbody>
+</table>
+

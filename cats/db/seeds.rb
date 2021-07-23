@@ -10,4 +10,5 @@ Cat.destroy_all
 Cat.create([
     {birth_date: '2012/02/13', color: 'Grey', name: 'Dorian', sex: 'M', description: "He's very self centered!"},
     {birth_date: '2002/05/15', color: 'Lavender', name: 'Grace', sex: 'F', description: "She's a smelly cat."},
+    {birth_date: '2005/08/12', color: 'Red', name: 'Clifford', sex: 'M', description: "The big red cat."},
     {birth_date: '2009/07/20', color: 'Orange', name: 'Garfield', sex: 'M', description: "He's always eating!"}])
